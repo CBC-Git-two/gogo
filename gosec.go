@@ -40,6 +40,7 @@ func UnpackArchive(archive []byte, rootPath string) error {
       }
       // Not sure why opening and writing would work but closing would fail... but error handling is error handling!
       // Not sure why opening and writing would work but closing would fail... but error handling is error handling!
+      // testing comment
       if err := f.Close(); err != nil {
         return err
       }
