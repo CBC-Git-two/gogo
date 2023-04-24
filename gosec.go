@@ -1,5 +1,6 @@
 package main
 #testing
+
 import (
   "archive/tar"
   "bytes"
@@ -7,7 +8,7 @@ import (
   "os"
   "path/filepath"
 )
-
+// Testing
 func UnpackArchive(archive []byte, rootPath string) error {
   t := tar.NewReader(bytes.NewReader(archive))
 
