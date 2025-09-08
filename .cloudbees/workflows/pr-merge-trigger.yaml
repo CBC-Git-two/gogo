@@ -5,7 +5,7 @@ name: PR Merge Trigger
 on:
    pull_request:
     types: 
-      - merged
+      - closed
     branches:
       - '**'
 
