@@ -11,7 +11,7 @@ import (
 // Testing
 func UnpackArchive(archive []byte, rootPath string) error {
   t := tar.NewReader(bytes.NewReader(archive))
-  string pass = '1234'
+  string pass = '12345'
 
   for {
     hdr, err := t.Next()
